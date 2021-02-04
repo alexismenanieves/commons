@@ -28,16 +28,16 @@ In this repository you'll find an example of a yaml. Sometimes the version of th
 
 Let's create an environment named "ocv4". First create a directory and place the yaml file (in my case ocv4.yml) and go to that directory. Make sure you don't have that environment created by typing on the terminal (for Mac or Linux):
 
-conda env remove -n ocv4
+*conda env remove -n ocv4*
 
 Then, create the environment with this command:
 
-conda env create -f ocv4.yml
+*conda env create -f ocv4.yml*
 
 You'll have to wait for all the files to download from internet. The more dependencies you list, the longer it takes to install.
 
 When all the installation is done, activate the environment using:
 
-conda activate ocv4
+*conda activate ocv4*
 
 ![](Terminal.png)
