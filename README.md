@@ -14,9 +14,7 @@ Download Anaconda installer from <https://www.anaconda.com/products/individual>,
 
 ### Create a libraries and dependencies file
 
-You can create a yaml file (which is basically a text file) and specify the libraries and dependencies you want in your environment. Firstly the name of your environment. Secondly the dependencies, basically python (in the version you want), numpy, matplotlib, and dlib (which includes the basic linear algebra libraries that I use every day). Then pip lets you install the libraries of your preference, in my case turicreate, streamlit, cmake and of course notebook (for Jupyter).
-
-Let me show the structure:
+You can create a yaml file (which is basically a text file) and specify the libraries and dependencies you want in your environment. Firstly the name of your environment. Secondly the dependencies, basically python (in the version you want), numpy, matplotlib, and dlib (which includes the basic linear algebra libraries that I use every day). Then pip lets you install the libraries of your preference, in my case turicreate, streamlit, cmake and of course notebook (for Jupyter). Let me show the structure:
 
 name:
 
@@ -41,3 +39,5 @@ You'll have to wait for all the files to download from internet. The more depend
 When all the installation is done, activate the environment using:
 
 conda activate ocv4
+
+![](Terminal.png)
